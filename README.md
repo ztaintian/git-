@@ -30,4 +30,6 @@
     git merge master
 
     git push推上去ok完成,现在 你自己分支的代码就和主分支的代码一样了
+5、git add 指定文件夹
 
+    git add 文件夹/ 添加整个文件夹及文件夹下的内容
