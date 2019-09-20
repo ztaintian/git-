@@ -30,6 +30,16 @@
     git merge master
 
     git push推上去ok完成,现在 你自己分支的代码就和主分支的代码一样了
+    
 5、git add 指定文件夹
 
     git add 文件夹/ 添加整个文件夹及文件夹下的内容
+
+6、git强制覆盖
+
+    git强制覆盖：
+        git fetch --all
+        git reset --hard origin/master
+        git pull
+    git强制覆盖本地命令（单条执行）：
+        git fetch --all && git reset --hard origin/master && git pull
